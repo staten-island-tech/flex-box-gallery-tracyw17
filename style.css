@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(174, 209, 240);
+}
+
+h1 {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.pictures {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    display: flex; 
+    align-items: center;
+
+
+}
+img {
+    width: 20rem;
+    height: 20rem;
+    border: 4px dotted white;
+    margin: 10px;
+    object-fit: cover;
+    
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+
+}
