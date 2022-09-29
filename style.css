@@ -1,35 +1,27 @@
-*{
+html,body, *{
     box-sizing: border-box;
-    background-color: rgb(174, 209, 240);
+    background-color: rgb(182, 189, 252);
+    font-family: century-gothic, sans-serif;
+    font-weight: lighter;
 }
 
 h1 {
-    background-color: antiquewhite;
     text-align: center;
     padding: 10px;
 
 }
 
-.pictures {
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    display: flex; 
-    align-items: center;
-
-
-}
 img {
-    width: 20rem;
-    height: 20rem;
-    border: 4px dotted white;
-    margin: 10px;
-    object-fit: cover;
-    
+    width: 15rem;
+    height: 15rem;
+    /*border: 4px dotted white; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
+
 
 img:hover {
     transform: scale(1.1);
     transition: all ease-in-out 0.3s;
-
 }
