@@ -7,17 +7,24 @@ html,body, *{
 
 h1 {
     text-align: center;
-    padding: 10px;
+    margin-top: 10px;
+    color: black
 
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 50rem;
+}
+
 
 img {
     width: 15rem;
     height: 15rem;
-    /*border: 4px dotted white; */
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
+    margin: 10px auto;
 }
 
 
