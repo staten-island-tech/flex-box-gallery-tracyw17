@@ -1,15 +1,14 @@
 html,body, *{
     box-sizing: border-box;
-    background-color: rgb(81, 147, 233);
+    background-color: rgb(182, 189, 252);
     font-family: century-gothic, sans-serif;
-    font-weight: bolder;
+    font-weight: lighter;
 }
 
 h1 {
     text-align: center;
     margin-top: 10px;
-    margin-top: 10px;
-    color: rgb(0, 0, 0)
+    color: black
 
 }
 
