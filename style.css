@@ -1,14 +1,16 @@
 html,body, *{
     box-sizing: border-box;
-    background-color: rgb(182, 189, 252);
-    font-family: century-gothic, sans-serif;
+    background-color: rgb(119, 179, 231);
+    font-family: 'Abril Fatface', cursive;
     font-weight: lighter;
 }
 
 h1 {
     text-align: center;
-    margin-top: 10px;
-    color: black
+    font-weight: bolder;
+    margin: 10px;
+    color: black;
+    background-color: aliceblue;
 
 }
 
@@ -22,11 +24,11 @@ h1 {
 
 
 img {
-    width: 15rem;
-    height: 15rem;
+    width: 16rem;
+    height: 16rem;
     margin: 10px auto;
-    box-shadow: 6px 6px rgb(198, 210, 233);
-    border-radius: 10px;
+    box-shadow: 6px 6px aliceblue;
+    border-radius: 5px;
 }
 
 
