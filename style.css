@@ -35,4 +35,21 @@ img {
 img:hover {
     transform: scale(1.1);
     transition: all ease-in-out 0.3s;
+} 
+
+#ani1:hover{
+    transform: scale(1.5);
+    transition: all ease-in-out 0.3s;
 }
+
+#ani2 img{
+    transition: 0.3s ease;
+    opacity: 0.3;
+}
+
+#ani2:hover img {
+    transition: 0.3 ease;
+    opacity: 1;
+}
+
+#ani3 img{}
