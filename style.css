@@ -1,3 +1,6 @@
+/*hello mr whalen thank u for the pretzel :D */
+
+
 html,body, *{
     box-sizing: border-box;
     background-color: rgb(182, 189, 252);
@@ -8,7 +11,9 @@ html,body, *{
 h1 {
     text-align: center;
     margin-top: 10px;
-    color: black
+    color: black;
+    font-size: 3rem;
+    background-color: white;
 
 }
 
@@ -17,15 +22,14 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px auto;
-    width: 50rem;
+    width: 70rem;
 }
 
-
 img {
-    width: 16rem;
-    height: 16rem;
-    margin: 10px auto;
-    box-shadow: 6px 6px white;
+    width: 20rem;
+    height: 20rem;
+    margin: 30px 10px;
+    box-shadow: 9px 9px white;
     border-radius: 10px;
 }
 
