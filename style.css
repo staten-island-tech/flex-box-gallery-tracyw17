@@ -37,19 +37,39 @@ img:hover {
     transition: all ease-in-out 0.3s;
 } 
 
-#ani1:hover{
+#t1:hover{
     transform: scale(1.5);
     transition: all ease-in-out 0.3s;
 }
 
-#ani2 img{
+#t2 {
     transition: 0.3s ease;
     opacity: 0.3;
 }
 
-#ani2:hover img {
+#t2:hover  {
     transition: 0.3 ease;
     opacity: 1;
 }
 
-#ani3 img{}
+#t3:hover {
+    transform: scale(0.5);
+    transition: all ease-in-out 0.3s;
+}
+
+#t4 {
+    transition: transform 0.9s ease-in-out;
+}
+
+#t4:hover {
+    transform: rotate(360deg);
+}
+
+#t5 img {
+    box-shadow: 6px 6px pink;
+    border-radius: 5px;
+}
+#t5:hover img{
+    box-shadow: 6px 6px rgb(226, 43, 134);
+    border-radius: 5px;
+}
